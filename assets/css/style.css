@@ -7,8 +7,7 @@ header {
     margin-bottom: 20px;
     background: #4aaaa5;
     color: #ffffff;
-    margin-left: 15%;
-    width: 10%;
+    
     text-align: center;
     top: 0;
     position 
@@ -16,5 +15,11 @@ header {
 
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    width: 960px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #ffffff;
 }
