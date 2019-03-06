@@ -13,3 +13,8 @@ header {
     top: 0;
     position 
 }
+
+body{
+    padding: 0;
+    margin: 0;
+}
