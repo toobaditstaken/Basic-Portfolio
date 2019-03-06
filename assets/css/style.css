@@ -7,7 +7,6 @@ header {
     margin-bottom: 20px;
     background: #4aaaa5;
     color: #ffffff;
-    
     text-align: center;
     top: 0;
     position 
@@ -16,6 +15,7 @@ header {
 body{
     padding: 0;
     margin: 0 auto;
+    background-image: url("../images/background_image.png");
 }
 
 section {
@@ -32,4 +32,8 @@ footer {
     color: #ffffff;
     background: #666666;
     text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
