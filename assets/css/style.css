@@ -11,6 +11,10 @@ header {
     height: 87px;
 }
 
+#aboutme{
+    color: #4aaaa5;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
