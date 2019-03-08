@@ -97,8 +97,7 @@ section {
 }
 
 footer {
-    border-style: solid;
-    border-color: #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
