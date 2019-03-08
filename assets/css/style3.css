@@ -33,6 +33,15 @@ header {
     text-align: center;
 }
 
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
