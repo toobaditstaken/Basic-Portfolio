@@ -11,10 +11,54 @@ header {
     height: 87px;
 }
 
-#aboutme{
+#portfoliotitle{
     color: #4aaaa5;
     font-size: 200%;
 }
+
+.content {
+    position: relative;
+    
+}
+
+.image {
+    width: 90%;
+}
+
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10px;
+    right: 0px;
+    left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 318px;
+    text-align: center;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.column {
+    width: 40%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -81,11 +125,6 @@ body{
     background-image: url("../images/background_image.png");
 }
 
-#bio-image{
-    width: 250px; 
-    height: 150px;
-    padding: 10px;
-}
 
 section {
     margin-bottom: 20px;
