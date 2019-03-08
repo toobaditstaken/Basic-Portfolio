@@ -26,9 +26,20 @@ p {
     font-size: 150%;
 }
 
+#contactborder {
+    border-right: 0px;
+}
+
 a {
     color: #666666;
     font-size: 150%;
+    border-style: solid;
+    border-color: #666666;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
 }
 
 a:link {
@@ -82,7 +93,6 @@ section {
 
 footer {
     border-style: solid;
-    
     border-color: #4aaaa5;
     border-left: 0px;
     border-right: 0px;
