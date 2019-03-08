@@ -18,6 +18,11 @@ header {
 
 .content {
     position: relative;
+    
+}
+
+.image {
+    width: 100%;
 }
 
 .text-block {
@@ -29,7 +34,7 @@ header {
     left: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 250px;
+    width: 218px;
     text-align: center;
 }
 
@@ -40,6 +45,31 @@ header {
 .row,
 .row > .column {
     padding: 8px;
+    
+}
+
+.column {
+    width: 25%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 h1 {
