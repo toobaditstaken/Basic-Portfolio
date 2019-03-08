@@ -27,6 +27,10 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+input[type=submit] {
+    
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
