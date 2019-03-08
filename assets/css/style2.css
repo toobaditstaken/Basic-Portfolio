@@ -16,6 +16,10 @@ header {
     font-size: 200%;
 }
 
+input[type=text], select, textarea {
+    width: 100%
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
